@@ -31,7 +31,7 @@ Die Data Bridge verbindet Edge Devices in der Fertigung mit der Snowflake Cloud.
 
 ## 🛠️ Konfiguration (IEM Schema)
 
-Folgende Parameter sind vollständig konfigurierbar:
+Folgende Parameter sind konfigurierbar:
 
 | Parameter                     | Beschreibung |
 |------------------------------|--------------|
@@ -50,7 +50,7 @@ Folgende Parameter sind vollständig konfigurierbar:
 
 ## 📌 Abgrenzung & Hinweise
 
-- Der Connector benötigt  **Data Service Applikation** um daten aus dem Edge device zu extrahieren.
+- Der Connector benötigt  **Data Service Applikation** um daten aus dem Edge Device zu extrahieren.
 - Dieser Client basiert auf dem FFT SPS Standard.
 - Die Funktion zum Abrufen von Historiendaten ist **hardwarelimitiert**:
   - Falls zu hohe Last: Fallback auf Live-Daten ab Startzeitpunkt des Connectors
