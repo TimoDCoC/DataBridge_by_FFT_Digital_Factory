@@ -2,7 +2,7 @@
 
 ## 🔧 Überblick
 
-Die Data Bridge verbindet Edge Devices in der Fertigung mit der Snowflake Cloud. Sie ist speziell angepasst für **Siemens Industrial Edge Management (IEM)** und läuft lokal auf dem Edge-Device. Die App ermöglicht eine sichere, konfigurierbare und konsistente Übertragung von Produktionsdaten zur Analyse in der Cloud.
+Die Data Bridge verbindet Edge Devices in der Fertigung mit der Snowflake Cloud. Sie ist speziell angepasst für **Siemens Industrial Edge** und läuft lokal auf dem Edge-Device. Die App ermöglicht eine sichere, konfigurierbare und konsistente Übertragung von Produktionsdaten zur Analyse in der Cloud.
 
 ---
 
