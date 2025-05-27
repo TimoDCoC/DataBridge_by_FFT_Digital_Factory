@@ -1,4 +1,4 @@
-# DataBridge by FFT Digital Factory
+
 
 ## 🔧 Überblick
 
