@@ -2,7 +2,7 @@
 
 ## 🔧 Überblick
 
-Die Data Bridge verbindet Edge Devices in der Fertigung mit der Snowflake Cloud. Sie ist speziell angepasst für **Siemens Industrial Edge** und läuft lokal auf dem Edge-Device. Die App ermöglicht eine sichere, konfigurierbare und konsistente Übertragung von Produktionsdaten zur Analyse in der Cloud.
+Die Data Bridge verbindet Edge Devices in der Fertigung mit der Snowflake Cloud. Sie ist speziell angepasst für **Siemens Industrial Edge** und läuft lokal auf dem Edge-Device. Die App ermöglicht eine sichere, konfigurierbare und konsistente Übertragung von Produktionsdaten zur Analyse in die Cloud.
 
 ---
 
@@ -16,7 +16,7 @@ Die Data Bridge verbindet Edge Devices in der Fertigung mit der Snowflake Cloud.
 - Unterstützt das **Abrufen von Historiendaten**, abhängig von der Edge Device Kapazität
 - Führt ein **Write-Log** mit Start- und Endzeitstempeln zur Sicherstellung konsistenter Übertragung
 - Nach einem Containerabsturz wird das Write-Log wiederverwendet, um Datenverlust zu vermeiden
-- Verwaltet fehlerhafte und abgeschlossene Dateien über ein **Ring-Memory**
+- Verwaltet fehlerhafte und abgeschlossene Dateien über ein **Ring-Buffer**
 - Frei konfigurierbar über **IEM Schema Configurations**
 
 ---
@@ -50,7 +50,7 @@ Folgende Parameter sind konfigurierbar:
 
 ## 📌 Abgrenzung & Hinweise
 
-- Der Connector benötigt  **Data Service Applikation** um daten aus dem Edge Device zu extrahieren.
+- Der Connector benötigt  **Data Service Applikation** um Daten aus dem Edge Device zu extrahieren.
 - Dieser Client basiert auf dem FFT SPS Standard.
 - Die Funktion zum Abrufen von Historiendaten ist **hardwarelimitiert**:
   - Falls zu hohe Last: Fallback auf Live-Daten ab Startzeitpunkt des Connectors
