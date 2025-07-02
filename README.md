@@ -42,7 +42,7 @@ Folgende Parameter sind konfigurierbar:
 | `Timeout`                    | Zeitlimit für Abfragen |
 | `Filesize in BIT`            | Max. Größe der Datensammlung vor Upload |
 | `Abfrage Attribute`          | z. B. `Device=Robot`, `Asset=Cycletime`, `Variable=Cycle` |
-| `Ring Speicher Max Werte`    | Konfiguration des Ring-Memory |
+| `Ring Speicher Max Werte`    | Konfiguration des Ring-Buffer |
 | `Encrypted Key File`         | Pfad zur verschlüsselten Auth-Datei |
 | `Password Encrypted File`    | Passwort zur Entschlüsselung |
 
