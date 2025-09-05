@@ -16,7 +16,7 @@ Die Data Bridge verbindet Edge Devices in der Fertigung mit der Snowflake Cloud.
 - Unterstützt das **Abrufen von Historiendaten**, abhängig von der Edge Device Kapazität
 - Führt ein **Write-Log** mit Start- und Endzeitstempeln zur Sicherstellung konsistenter Übertragung
 - Nach einem Containerabsturz wird das Write-Log wiederverwendet, um Datenverlust zu vermeiden
-- Verwaltet fehlerhafte und abgeschlossene Dateien über ein **Ring-Buffer**
+- Verwaltet abgeschlossene Dateien über ein **Ring-Buffer** im 
 - Frei konfigurierbar über **IEM Schema Configurations**
 
 ---
